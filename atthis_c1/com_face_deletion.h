@@ -1,7 +1,7 @@
 #ifndef COM_FACE_DELETION_H
 #define COM_FACE_DELETION_H
 #include "face_deletion.h"
-
+#include"face_management.h"
 class Com_face_deletion
 {
 public:

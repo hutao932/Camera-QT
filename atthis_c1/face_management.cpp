@@ -38,10 +38,12 @@ void face_management::on_btn_go1form_clicked() {
 }
 
 void face_management::on_btn_go3form_clicked() {
-    //Com_face_deletion::p_face_deletion->show();
+    Com_face_deletion::p_face_deletion->show();
+    /*
     HttpClient::get_instance().user_management_delete_dataset();
     ui->facerecordsnum_textbox->setText(QString::number(0));
     m_database_records = 0;
+    */
 }
 void face_management::update_database_records() {
     m_database_records++;

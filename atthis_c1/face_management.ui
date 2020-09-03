@@ -46,7 +46,7 @@
     <item>
      <widget class="QPushButton" name="btn_go3form">
       <property name="text">
-       <string>清空人脸库</string>
+       <string>删除用户</string>
       </property>
      </widget>
     </item>

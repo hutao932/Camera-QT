@@ -52,6 +52,8 @@ private slots:
 
     void on_btn_password_restore_clicked();
 
+    void on_comboBox_liveness_type_activated(const QString &arg1);
+
 private:
     Ui::function_set *ui;
     uint16_t m_liveness_threshold;

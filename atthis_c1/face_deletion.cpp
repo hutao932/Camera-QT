@@ -4,6 +4,8 @@
 #include <QListWidgetItem>
 #include <QMainWindow>
 #include <stdio.h>
+#include "http_client.h"
+
 
 const int W_ICONSIZE = 96;
 const int H_ICONSIZE = 96;
@@ -21,6 +23,7 @@ face_deletion::face_deletion(QWidget *parent) :
     ui->listWidget->setSpacing(10);
 
     ui->listWidget->resize(400, 400);
+
 }
 
 face_deletion::~face_deletion()
@@ -69,4 +72,14 @@ void face_deletion::on_pushButton_search_2_clicked() {
             delete var;
         }
     }
+}
+
+void face_deletion::on_pushButton_clear_clicked()
+{
+    HttpClient::get_instance().user_management_delete_dataset();
+
+
+   //  ui->facerecordsnum_textbox->setText(QString::number(0));
+
+     m_database_records = 0;
 }

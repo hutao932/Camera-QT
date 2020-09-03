@@ -21,9 +21,13 @@ private slots:
 
     void on_pushButton_search_2_clicked();
 
+    void on_pushButton_clear_clicked();
+
 private:
-    Ui::face_deletion *ui;
+
+     Ui::face_deletion *ui;
     std::string m_username;
+    int m_database_records;
 };
 
 #endif // FACE_DELETION_H

@@ -27,6 +27,14 @@ function_set::function_set(QWidget *parent) :
     liveness_type << "NONE" << "RGB" << "NIR" << "RGB+NIR";
     ui->comboBox_liveness_type->addItems(liveness_type);
 
+
+    QStringList liveness_type1;
+    liveness_type1 << "识别回调" << "心跳回调" << "中间状态回调";
+  //  ui->comboBox_liveness_type->addItems(liveness_type);
+  ui->comboBox_Callback->addItems(liveness_type1);
+
+
+
     qDebug("APP version: %s", ATTHIS_VERSION);
     ui->label_15->setText(ATTHIS_VERSION);
 
@@ -242,3 +250,10 @@ void function_set::on_btn_password_restore_clicked()
 {
     HttpClient::get_instance().device_management_restore_password();
 }
+
+
+void function_set::on_comboBox_liveness_type_activated(const QString &arg1)
+{
+
+}
+

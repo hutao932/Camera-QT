@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>480</width>
-    <height>742</height>
+    <width>485</width>
+    <height>801</height>
    </rect>
   </property>
   <property name="focusPolicy">
@@ -217,8 +217,8 @@
   <widget class="QLabel" name="label_13">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>710</y>
+     <x>12</x>
+     <y>750</y>
      <width>341</width>
      <height>31</height>
     </rect>
@@ -294,8 +294,8 @@
   <widget class="QPushButton" name="firmware_upgrade">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>590</y>
+     <x>192</x>
+     <y>630</y>
      <width>121</width>
      <height>25</height>
     </rect>
@@ -307,8 +307,8 @@
   <widget class="QLabel" name="ATThis_Version">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>630</y>
+     <x>2</x>
+     <y>670</y>
      <width>121</width>
      <height>17</height>
     </rect>
@@ -320,8 +320,8 @@
   <widget class="QLabel" name="label_15">
    <property name="geometry">
     <rect>
-     <x>130</x>
-     <y>630</y>
+     <x>132</x>
+     <y>670</y>
      <width>251</width>
      <height>20</height>
     </rect>
@@ -333,8 +333,8 @@
   <widget class="QLabel" name="label_camera">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>660</y>
+     <x>2</x>
+     <y>700</y>
      <width>121</width>
      <height>17</height>
     </rect>
@@ -346,8 +346,8 @@
   <widget class="QLabel" name="label_atthis_c1_firmware_rev">
    <property name="geometry">
     <rect>
-     <x>130</x>
-     <y>660</y>
+     <x>132</x>
+     <y>700</y>
      <width>261</width>
      <height>17</height>
     </rect>
@@ -359,8 +359,8 @@
   <widget class="QPushButton" name="pushButton_restore">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>550</y>
+     <x>192</x>
+     <y>590</y>
      <width>121</width>
      <height>25</height>
     </rect>
@@ -375,8 +375,8 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>550</y>
+     <x>32</x>
+     <y>590</y>
      <width>121</width>
      <height>25</height>
     </rect>
@@ -391,8 +391,8 @@
   <widget class="QLabel" name="label_rgb_led">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>500</y>
+     <x>62</x>
+     <y>540</y>
      <width>111</width>
      <height>31</height>
     </rect>
@@ -404,8 +404,8 @@
   <widget class="QLabel" name="label_ir_led">
    <property name="geometry">
     <rect>
-     <x>280</x>
-     <y>500</y>
+     <x>282</x>
+     <y>540</y>
      <width>111</width>
      <height>31</height>
     </rect>
@@ -417,8 +417,8 @@
   <widget class="QLabel" name="label__sn">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>690</y>
+     <x>2</x>
+     <y>730</y>
      <width>31</width>
      <height>17</height>
     </rect>
@@ -430,8 +430,8 @@
   <widget class="QLabel" name="label_device_sn">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>690</y>
+     <x>42</x>
+     <y>730</y>
      <width>211</width>
      <height>17</height>
     </rect>
@@ -466,8 +466,8 @@
   <widget class="QProgressBar" name="upgrade_progress_bar">
    <property name="geometry">
     <rect>
-     <x>350</x>
-     <y>590</y>
+     <x>352</x>
+     <y>630</y>
      <width>111</width>
      <height>23</height>
     </rect>
@@ -479,8 +479,8 @@
   <widget class="QPushButton" name="pushButton_sync_time">
    <property name="geometry">
     <rect>
-     <x>350</x>
-     <y>550</y>
+     <x>352</x>
+     <y>590</y>
      <width>111</width>
      <height>25</height>
     </rect>
@@ -492,8 +492,8 @@
   <widget class="QPushButton" name="pushButton_activate">
    <property name="geometry">
     <rect>
-     <x>360</x>
-     <y>444</y>
+     <x>370</x>
+     <y>490</y>
      <width>101</width>
      <height>31</height>
     </rect>
@@ -527,8 +527,8 @@
   <widget class="Line" name="line_2">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>480</y>
+     <x>2</x>
+     <y>530</y>
      <width>481</width>
      <height>20</height>
     </rect>
@@ -543,8 +543,8 @@
   <widget class="QCheckBox" name="checkBox_RGB">
    <property name="geometry">
     <rect>
-     <x>171</x>
-     <y>502</y>
+     <x>173</x>
+     <y>542</y>
      <width>21</width>
      <height>31</height>
     </rect>
@@ -556,8 +556,8 @@
   <widget class="QCheckBox" name="checkBox_IR">
    <property name="geometry">
     <rect>
-     <x>380</x>
-     <y>500</y>
+     <x>382</x>
+     <y>540</y>
      <width>21</width>
      <height>31</height>
     </rect>
@@ -588,14 +588,50 @@
   <widget class="QPushButton" name="btn_password_restore">
    <property name="geometry">
     <rect>
-     <x>28</x>
-     <y>590</y>
+     <x>30</x>
+     <y>630</y>
      <width>121</width>
      <height>25</height>
     </rect>
    </property>
    <property name="text">
     <string>密码恢复</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_face_detection_min_size_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>450</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;回调类型：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_Callback">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>450</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>450</y>
+     <width>113</width>
+     <height>31</height>
+    </rect>
    </property>
   </widget>
  </widget>
