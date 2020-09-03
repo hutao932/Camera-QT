@@ -1,0 +1,12 @@
+Global:
+    tool : build_submitter
+
+Default:
+    profile : [publish]
+
+Profiles:
+    - profile:
+      name :  publish
+      env: UBUNTU
+      command : sh -x god.sh yanhongbin baidu-idl-xteam-xeye-35 master
+      release : true
